@@ -119,23 +119,6 @@ function updateCanvas() {
   context.fillStyle= '#00FF00'
   context.fill();
 
-  //context.fillStyle= '#00FF00'
-  //context.arc(100,canvasHeight - treeHeight,50, 0, 2 * Math.PI)
-
-  
-
-  // Draw animals
-  //const animalSize = 20;
-  //const animalY = canvasHeight - treeHeight + animalSize / 2;
-  //const animalPositions = [130, 230, 530];
-  //context.fillStyle = '#FF4500'; // Orange
-
-  //animalPositions.forEach((x) => {
-  //  context.beginPath();
-  //  context.arc(x, animalY, animalSize, 0, 2 * Math.PI);
-  //  context.fill();
-  //});
-
   // Increase time for the next frame
   time += 0.01;
   if (time > 1) {
